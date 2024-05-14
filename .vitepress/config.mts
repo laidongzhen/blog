@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // 设定public根目录
+  base: '/blog/',
   title: "blog",
   description: "个人博客",
   themeConfig: {
