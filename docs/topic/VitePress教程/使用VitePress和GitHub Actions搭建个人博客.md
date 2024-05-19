@@ -272,7 +272,10 @@ git branch -M main
 
 在yml中，有用到 ACCESS_TOKEN 参数 。
 
-**ACCESS_TOKEN 参数是通过 GitHub Secrets 来提供的**。在 GitHub 仓库的 Settings 页面中，可以设置 Secrets，这些 Secrets 可以在 GitHub Actions 中使用，以便在工作流中安全地存储敏感信息，如访问令牌、密码等。在这段代码中，`${{ secrets.ACCESS_TOKEN }}` 会使用存储在 GitHub Secrets 中名为 `ACCESS_TOKEN` 的值作为访问令牌，用于部署到 GitHub Pages 和远程服务器。
+**ACCESS_TOKEN 参数是通过 GitHub Secrets 来提供的**。
+```
+在 GitHub 仓库的 Settings 页面中，可以设置 Secrets，这些 Secrets 可以在 GitHub Actions 中使用，以便在工作流中安全地存储敏感信息，如访问令牌、密码等。在这段代码中，${{ secrets.ACCESS_TOKEN }} 会使用存储在 GitHub Secrets 中名为 ACCESS_TOKEN 的值作为访问令牌，用于部署到 GitHub Pages 和远程服务器。
+```
 
 
 

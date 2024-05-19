@@ -45,5 +45,6 @@ export default {
   "/topic/VitePress教程": [
     { text: "VitePress教程", link: "/topic/VitePress教程/index.md" },
     { text: "【架构师-1】需求分析和架构设计", link: "/topic/VitePress教程/【架构师-1】需求分析和架构设计.md" },
+    { text: "使用VitePress和GitHub Actions搭建个人博客", link: "/topic/VitePress教程/使用VitePress和GitHub Actions搭建个人博客.md" },
   ],
 }

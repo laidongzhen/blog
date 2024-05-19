@@ -7,7 +7,7 @@
         "docs:dev": "vitepress dev",
         "docs:build": "vitepress build",
         "docs:preview": "vitepress preview",
-        "docs:clean": "rmdir /S .vitepress\\cache"
+        "clean": "rmdir /S .vitepress\\cache"
     },
     "keywords": [],
     "author": "",
