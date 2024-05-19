@@ -1,10 +1,19 @@
 {
-  "devDependencies": {
-    "vitepress": "^1.1.4"
-  },
-  "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
-  }
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "docs:dev": "vitepress dev",
+        "docs:build": "vitepress build",
+        "docs:preview": "vitepress preview",
+        "docs:clean": "rmdir /S .vitepress\\cache"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "vitepress": "^1.1.4",
+        "vitepress-plugin-nprogress": "^0.0.4"
+    }
 }
