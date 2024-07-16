@@ -34,6 +34,13 @@ export default [
     text: "专题",
     items: [
       { text: "VitePress教程", link: "/topic/VitePress教程/" },
+      { text: "ElementUI问题", link: "/topic/ElementUI问题/" },
+    ],
+  },
+  {
+    text: "技术",
+    items: [
+      { text: "git教程", link: "/技术/git教程/" },
     ],
   },
 ];
