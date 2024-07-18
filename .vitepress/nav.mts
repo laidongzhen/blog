@@ -35,6 +35,7 @@ export default [
     items: [
       { text: "VitePress教程", link: "/topic/VitePress教程/" },
       { text: "ElementUI问题", link: "/topic/ElementUI问题/" },
+      { text: "Vue问题", link: "/topic/Vue问题/" },
     ],
   },
   {

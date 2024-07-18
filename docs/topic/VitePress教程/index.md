@@ -1,3 +1,3 @@
 # VitePress教程
 
-VitePress教程-测试用
+记录使用VitePress搭建博客

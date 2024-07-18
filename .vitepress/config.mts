@@ -61,36 +61,4 @@ export default defineConfig({
     // 最后更新时间的显示文本
     lastUpdatedText: "最后一次更新于",
   },
-  // themeConfig: {
-  //   // https://vitepress.dev/reference/default-theme-config
-  //   nav: [
-  //     { text: "首页", link: "/" },
-  //     {
-  //       text: "系统课程",
-  //       link: "/系统课程/index"
-  //     },
-  //     { text: "VitePress教程",  items: [
-  //       {
-  //         text: "【架构师-1】需求分析和架构设计",
-  //         link: "/VitePress教程/【架构师-1】需求分析和架构设计.md",
-  //       },
-  //     ], },
-  //     { text: "生活分享", link: "/生活分享/index" },
-  //     { text: "Examples", link: "/markdown-examples" ,activeMatch: '/Examples/'},
-  //   ],
-
-  //   sidebar: [
-  //     {
-  //       text: "Examples",
-  //       items: [
-  //         { text: "Markdown Examples", link: "/markdown-examples" },
-  //         { text: "Runtime API Examples", link: "/api-examples" },
-  //       ],
-  //     },
-  //   ],
-
-  //   socialLinks: [
-  //     { icon: "github", link: "https://github.com/vuejs/vitepress" },
-  //   ],
-  // },
 });
