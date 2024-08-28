@@ -7,13 +7,13 @@
         "docs:dev": "vitepress dev",
         "docs:build": "vitepress build",
         "docs:preview": "vitepress preview",
-        "clean": "rmdir /S .vitepress\\cache"
+        "clean": "rmdir /S .vitepress\\cache",
+        "commit": "git-cz"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "cz-conventional-changelog": "^3.3.0",
         "cz-customizable": "^6.3.0",
         "vitepress": "^1.1.4",
         "vitepress-plugin-back-to-top": "^1.0.1",
@@ -21,7 +21,7 @@
     },
     "config": {
         "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
+        "path": "node_modules/cz-customizable"   //commitizen的自定义配置的安装位置
         }
     }
 }

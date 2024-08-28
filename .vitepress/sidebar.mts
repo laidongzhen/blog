@@ -1,3 +1,10 @@
+/*
+ * @Author: laidz laidz@yelinked.com
+ * @Date: 2024-07-09 17:17:45
+ * @LastEditors: laidz laidz@yelinked.com
+ * @LastEditTime: 2024-08-28 10:55:29
+ * @Description: 
+ */
 // export default [
 //     {
 //       text: 'Examples',
@@ -46,6 +53,9 @@ export default {
   "/topic/Vue问题": [
     { text: "Vue问题", link: "/topic/Vue问题/index.md" },
     { text: "vue2中this.$set()的基本用法", link: "/topic/Vue问题/vue2中this.$set()的基本用法" },
+  ],
+  "/topic/Vant问题": [
+    { text: "vant中van-tabs有2个并且都设置sticky时如何生效.md", link: "/topic/Vant问题/vant中van-tabs有2个并且都设置sticky时如何生效.md" },
   ],
   "/技术/git教程": [
     { text: "git教程", link: "/技术/git教程/index.md" },
