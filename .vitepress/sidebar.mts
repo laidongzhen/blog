@@ -2,7 +2,7 @@
  * @Author: laidz laidz@yelinked.com
  * @Date: 2024-07-09 17:17:45
  * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2024-08-28 10:55:29
+ * @LastEditTime: 2024-10-12 11:45:41
  * @Description: 
  */
 // export default [
@@ -53,6 +53,7 @@ export default {
   "/topic/Vue问题": [
     { text: "Vue问题", link: "/topic/Vue问题/index.md" },
     { text: "vue2中this.$set()的基本用法", link: "/topic/Vue问题/vue2中this.$set()的基本用法" },
+    { text: "vue中this.$emit(“update:xx“,value)和xx.sync的用法", link: "/topic/Vue问题/vue中this.$emit(“updatexx“,value)和xx.sync的用法" },
   ],
   "/topic/Vant问题": [
     { text: "vant中van-tabs有2个并且都设置sticky时如何生效.md", link: "/topic/Vant问题/vant中van-tabs有2个并且都设置sticky时如何生效.md" },

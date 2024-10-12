@@ -1,3 +1,10 @@
+/*
+ * @Author: laidz laidz@yelinked.com
+ * @Date: 2024-07-09 17:17:45
+ * @LastEditors: laidz laidz@yelinked.com
+ * @LastEditTime: 2024-10-12 11:47:06
+ * @Description: 
+ */
 import { defineConfig } from "vitepress";
 import nav from './nav.mts'
 import sidebar from './sidebar.mts'
@@ -12,7 +19,7 @@ export default defineConfig({
   // 允许自定义每个页面的标题后缀或整个标题
   titleTemplate: '',
   // 站点的描述
-  description: "个人博客",
+  description: "福建,新和兴,工业制造业,小快轻准,个人博客",
   cleanUrls: true,
   // 设置独立的文档目录，把原根目录下的文章（文档目录）放到 docs 文件夹下
   srcDir: "docs",
