@@ -2,7 +2,7 @@
  * @Author: laidz laidz@yelinked.com
  * @Date: 2024-07-09 17:17:45
  * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2024-10-12 11:45:41
+ * @LastEditTime: 2025-02-05 14:34:19
  * @Description: 
  */
 // export default [
@@ -49,6 +49,7 @@ export default {
     { text: "ElementUI问题", link: "/topic/ElementUI问题/index.md" },
     { text: "el-table表格左侧固定列el-table__fixed导致滚动条无法拖动", link: "/topic/ElementUI问题/el-table表格左侧固定列el-table__fixed导致滚动条无法拖动" },
     { text: "el-table中如何移除表单的校验结果", link: "/topic/ElementUI问题/el-table中如何移除表单的校验结果.md" },
+    { text: "ElementUI表格多选时点击某一行选中勾选框", link: "/topic/ElementUI问题/ElementUI表格多选时点击某一行选中勾选框.md" },
   ],
   "/topic/Vue问题": [
     { text: "Vue问题", link: "/topic/Vue问题/index.md" },
