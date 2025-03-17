@@ -2,7 +2,21 @@
  * @Author: laidz laidz@yelinked.com
  * @Date: 2024-07-09 17:17:45
  * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-02-05 14:34:19
+ * @LastEditTime: 2025-03-17 17:59:52
+ * @Description: 
+ */
+/*
+ * @Author: laidz laidz@yelinked.com
+ * @Date: 2024-07-09 17:17:45
+ * @LastEditors: laidz laidz@yelinked.com
+ * @LastEditTime: 2025-03-17 16:18:36
+ * @Description: 
+ */
+/*
+ * @Author: laidz laidz@yelinked.com
+ * @Date: 2024-07-09 17:17:45
+ * @LastEditors: laidz laidz@yelinked.com
+ * @LastEditTime: 2025-03-17 16:16:22
  * @Description: 
  */
 // export default [
@@ -18,6 +32,28 @@
 //   ]
 
 export default {
+  // 笔记
+  "/notes": [
+    { text: "前端路线规划.md", link: "/notes/前端路线规划.md" },
+    // { text: "前端路线规划.md", link: "/notes/index.md" },
+    { 
+        collapsed: false,
+        text: "模块A", 
+        items: [
+            { text: '测试A-1', link: '/notes/moduleA/item-a.md' },
+            // { text: '测试A-2', link: '/item-b' },
+          ]
+     },
+     { 
+        collapsed: false,
+        text: "模块B", 
+        items: [
+            { text: '测试B-1', link: '/notes/moduleB/item-a' },
+            { text: '测试B-2', link: '/notes/moduleB/item-b.md' },
+          ]
+     },
+  ],
+
   // frontend
   "/frontend/html/": [
     { text: "HTML", link: "/frontend/html/index.md" },

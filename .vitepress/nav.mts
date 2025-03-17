@@ -1,5 +1,13 @@
+/*
+ * @Author: laidz laidz@yelinked.com
+ * @Date: 2024-07-09 17:17:45
+ * @LastEditors: laidz laidz@yelinked.com
+ * @LastEditTime: 2025-03-17 15:33:29
+ * @Description: 
+ */
 export default [
   { text: "首页", link: "/" },
+  { text: "笔记", link: "/notes/" },
   {
     text: "前端",
     items: [
