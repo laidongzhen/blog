@@ -2,40 +2,31 @@
  * @Author: laidz laidz@yelinked.com
  * @Date: 2024-07-09 17:17:45
  * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-03-17 17:59:52
+ * @LastEditTime: 2025-03-18 17:45:14
  * @Description: 
  */
-/*
- * @Author: laidz laidz@yelinked.com
- * @Date: 2024-07-09 17:17:45
- * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-03-17 16:18:36
- * @Description: 
- */
-/*
- * @Author: laidz laidz@yelinked.com
- * @Date: 2024-07-09 17:17:45
- * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-03-17 16:16:22
- * @Description: 
- */
-// export default [
-//     {
-//       text: 'Examples',
-//     //   是否折叠
-//     //   collapsed:true,
-//       items: [
-//         { text: 'Markdown Examples', link: '/markdown-examples' },
-//         { text: 'Runtime API Examples', link: '/api-examples' }
-//       ]
-//     }
-//   ]
-
 export default {
   // 笔记
   "/notes": [
     { text: "前端路线规划.md", link: "/notes/前端路线规划.md" },
-    // { text: "前端路线规划.md", link: "/notes/index.md" },
+    { 
+        collapsed: false,
+        text: "工具与流程", 
+        items: [
+            { text: '仓库镜像管理：Gitee-Github 双向同步', link: '/notes/工具与流程/仓库镜像管理.md' },
+            { text: 'VSCode如何找回未提交到远程的代码', link: '/notes/工具与流程/VSCode如何找回未提交到远程的代码.md' },
+          ]
+     },
+    { 
+        collapsed: false,
+        text: "项目问题", 
+        items: [
+            { text: 'el-form表单展开和收起功能根据字段自适应实现', link: '/notes/项目问题/elForm表单展开和收起功能根据字段自适应实现.md' },
+            { text: "el-table表格左侧固定列el-table__fixed导致滚动条无法拖动", link: "/notes/项目问题/el-table表格左侧固定列el-table__fixed导致滚动条无法拖动" },
+            { text: "el-table中如何移除表单的校验结果", link: "/notes/项目问题/el-table中如何移除表单的校验结果.md" },
+            { text: "ElementUI表格多选时点击某一行选中勾选框", link: "/notes/项目问题/ElementUI表格多选时点击某一行选中勾选框.md" },
+          ]
+     },
     { 
         collapsed: false,
         text: "模块A", 
