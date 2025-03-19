@@ -2,13 +2,20 @@
  * @Author: laidz laidz@yelinked.com
  * @Date: 2024-07-09 17:17:45
  * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-03-18 17:45:14
+ * @LastEditTime: 2025-03-19 15:07:05
  * @Description: 
  */
 export default {
   // 笔记
   "/notes": [
     { text: "前端路线规划.md", link: "/notes/前端路线规划.md" },
+    { 
+        collapsed: false,
+        text: "Vue", 
+        items: [
+            { text: 'Vue3基础语法', link: '/notes/Vue/Vue3基础语法.md' },
+          ]
+     },
     { 
         collapsed: false,
         text: "工具与流程", 
