@@ -2,7 +2,7 @@
  * @Author: laidz laidz@yelinked.com
  * @Date: 2024-07-09 17:17:45
  * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-03-19 15:07:05
+ * @LastEditTime: 2025-03-25 14:13:33
  * @Description: 
  */
 export default {
@@ -14,6 +14,7 @@ export default {
         text: "Vue", 
         items: [
             { text: 'Vue3基础语法', link: '/notes/Vue/Vue3基础语法.md' },
+            { text: 'vue3源码解析', link: '/notes/Vue/vue3源码解析.md' },
           ]
      },
     { 

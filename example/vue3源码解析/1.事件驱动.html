@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>D0M 操作示例</title>
+</head>
+<body>
+	<button id="add-paragraph">添加段落</button>
+	<div id="content"></div>
+
+	<script src="script.js"></script>
+</body>
+</htm1>
+
+<script>
+    // 假设我们有一个按钮，点击按钮后会在页面上添加一个新的段落
+    document.getElementById('add-paragraph').addEventlistener('click', function(){
+        const newParagraph=document.createElement('p');
+        newParagraph.textContent="添加一个新的段落";
+        document.getElementById("content").appendchild(newParagraph);
+    });
+
+    // 以下是代码智能生成的
+	// // 获取按钮和内容区域元素
+	// const addButton = document.getElementById('add-paragraph');
+	// const content = document.getElementById('content');
+
+	// // 添加点击事件监听器
+	// addButton.addEventListener('click', () => {
+	// 	// 创建一个新的段落元素
+	// 	const newParagraph = document.createElement('p');
+	// 	newParagraph.textContent = '这是一个新的段落。';
+
+	// 	// 将新段落添加到内容区域中
+	// 	content.appendChild(newParagraph);
+	// });
+</script>

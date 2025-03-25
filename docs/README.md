@@ -1,9 +1,10 @@
-<!--
- * @Author: laidz laidz@yelinked.com
- * @Date: 2024-07-18 11:51:37
- * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-02-05 14:31:28
- * @Description: 
--->
+# 说明
+
+此仓库为个人博客源代码
+
+技术栈：vitepress+github pages
+
+# 备注
+
 个人博客地址
 node 版本:18.20.3
