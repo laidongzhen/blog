@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 计数器，当点击时，数字 +1 -->
+    <script>
+      // 定义基础数据
+      let count = 0;
+
+      // 定义数据操作方法
+      function add() {
+        count++;
+      }
+
+      // 渲染数据
+      function render() {
+        document.body.innerHTML = `
+          <h1>${count}</h1>
+        `;
+      }
+
+      // 渲染器 vue、react 都有这种渲染器 vNode -> dom
+      render();
+
+      // 后续通过事件可以驱动这操作
+      // 事件监听
+      document.body.addEventListener("click", () => {
+        // 做数据变更操作
+        add();
+        // 重新渲染视图
+        render();
+      });
+
+    // 运行效果
+    // 点击数字时，数字 +1
+    </script>
+  </body>
+</html>
