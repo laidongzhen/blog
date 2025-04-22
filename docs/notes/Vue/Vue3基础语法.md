@@ -272,7 +272,7 @@ npm create vue@latest
 
 - `setup`函数返回的对象中的内容，可直接在模板中使用。
 - `setup`中访问`this`是`undefined`。
-- `setup`函数会在`beforeCreate`之前调用，它是“领先”所有钩子执行的。
+- `setup`函数会在`beforeCreate`之前调用，它是**“领先”所有钩子执行的**。
 
 ```vue
 <template>
