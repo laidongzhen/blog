@@ -23,6 +23,7 @@ export default {
         items: [
             { text: '仓库镜像管理：Gitee-Github 双向同步', link: '/notes/工具与流程/仓库镜像管理.md' },
             { text: 'VSCode如何找回未提交到远程的代码', link: '/notes/工具与流程/VSCode如何找回未提交到远程的代码.md' },
+            { text: '高级软考系统架构设计师', link: '/notes/工具与流程/高级软考系统架构设计师.md' },
           ]
      },
     { 
