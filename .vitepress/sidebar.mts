@@ -2,7 +2,7 @@
  * @Author: laidz laidz@yelinked.com
  * @Date: 2024-07-09 17:17:45
  * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-03-25 14:13:33
+ * @LastEditTime: 2025-06-06 11:09:39
  * @Description: 
  */
 export default {
@@ -24,6 +24,7 @@ export default {
             { text: '仓库镜像管理：Gitee-Github 双向同步', link: '/notes/工具与流程/仓库镜像管理.md' },
             { text: 'VSCode如何找回未提交到远程的代码', link: '/notes/工具与流程/VSCode如何找回未提交到远程的代码.md' },
             { text: '高级软考系统架构设计师', link: '/notes/工具与流程/高级软考系统架构设计师.md' },
+            { text: '通过phpstudy和wordpress在本地新建一个网站', link: '/notes/工具与流程/通过phpstudy和wordpress在本地新建一个网站.md' },
           ]
      },
     { 
