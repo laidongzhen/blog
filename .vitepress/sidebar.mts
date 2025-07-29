@@ -2,7 +2,7 @@
  * @Author: laidz laidz@yelinked.com
  * @Date: 2024-07-09 17:17:45
  * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-06-06 11:09:39
+ * @LastEditTime: 2025-07-29 11:05:29
  * @Description: 
  */
 export default {
@@ -74,6 +74,14 @@ export default {
   ],
   "/frontend/vue/": [
     { text: "Vue", link: "/frontend/vue/index.md" },
+    { 
+      collapsed: false,
+      text: "coderwhy的vue3", 
+      items: [
+          { text: 'Vue3基础语法', link: '/notes/Vue/Vue3基础语法.md' },
+          { text: 'vue3源码解析', link: '/notes/Vue/vue3源码解析.md' },
+        ]
+    },
   ],
   "/frontend/react/": [
     { text: "React", link: "/frontend/react/index.md" },
