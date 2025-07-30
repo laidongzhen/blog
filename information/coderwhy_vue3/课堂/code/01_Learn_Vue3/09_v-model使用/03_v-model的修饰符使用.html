@@ -1,3 +1,10 @@
+<!--
+ * @Author: laidz laidz@yelinked.com
+ * @Date: 2025-07-29 11:46:05
+ * @LastEditors: laidz laidz@yelinked.com
+ * @LastEditTime: 2025-07-30 11:22:02
+ * @Description: 
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,12 +19,12 @@
 
   <template id="my-app">
     <!-- 1.lazy修饰符 -->
-    <!-- <input type="text" v-model.lazy="message"> -->
+    <input type="text" v-model.lazy="message">
 
     <!-- 2.number修饰符 -->
-    <!-- <input type="text" v-model.number="message">
+    <input type="text" v-model.number="message">
     <h2>{{message}}</h2>
-    <button @click="showType">查看类型</button> -->
+    <button @click="showType">查看类型</button>
 
     <!-- 3.trim修饰符 -->
     <input type="text" v-model.trim="message">
@@ -39,6 +46,13 @@
         },
         showResult() {
           console.log(this.message);
+        },
+        showScore() {
+          const score = "100"
+          if(score > 90) {
+            console.log('优秀');
+          }
+          console.log(typeof score);
         }
       }
     }
