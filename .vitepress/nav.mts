@@ -53,4 +53,6 @@ export default [
       { text: "git教程", link: "/技术/git教程/" },
     ],
   },
+  // 添加友情链接导航项
+  { text: "友情链接", link: "/friends/" }
 ];
