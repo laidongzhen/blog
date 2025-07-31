@@ -30,10 +30,10 @@ export default [
         text: "框架",
         items: [
           { text: "Vue", link: "/frontend/vue/" },
-          {
-            text: "React",
-            link: "/frontend/react/",
-          },
+          // {
+          //   text: "React",
+          //   link: "/frontend/react/",
+          // },
         ],
       },
     ],
@@ -47,12 +47,12 @@ export default [
       { text: "Vant问题", link: "/topic/Vant问题/" },
     ],
   },
-  {
-    text: "技术",
-    items: [
-      { text: "git教程", link: "/技术/git教程/" },
-    ],
-  },
+  // {
+  //   text: "技术",
+  //   items: [
+  //     { text: "git教程", link: "/技术/git教程/" },
+  //   ],
+  // },
   // 添加友情链接导航项
   { text: "友情链接", link: "/friends/" }
 ];

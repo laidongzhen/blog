@@ -37,22 +37,22 @@ export default {
             { text: "ElementUI表格多选时点击某一行选中勾选框", link: "/notes/项目问题/ElementUI表格多选时点击某一行选中勾选框.md" },
           ]
      },
-    { 
-        collapsed: false,
-        text: "模块A", 
-        items: [
-            { text: '测试A-1', link: '/notes/moduleA/item-a.md' },
-            // { text: '测试A-2', link: '/item-b' },
-          ]
-     },
-     { 
-        collapsed: false,
-        text: "模块B", 
-        items: [
-            { text: '测试B-1', link: '/notes/moduleB/item-a' },
-            { text: '测试B-2', link: '/notes/moduleB/item-b.md' },
-          ]
-     },
+    // { 
+    //     collapsed: false,
+    //     text: "模块A", 
+    //     items: [
+    //         { text: '测试A-1', link: '/notes/moduleA/item-a.md' },
+    //         // { text: '测试A-2', link: '/item-b' },
+    //       ]
+    //  },
+    //  { 
+    //     collapsed: false,
+    //     text: "模块B", 
+    //     items: [
+    //         { text: '测试B-1', link: '/notes/moduleB/item-a' },
+    //         { text: '测试B-2', link: '/notes/moduleB/item-b.md' },
+    //       ]
+    //  },
   ],
 
   // frontend
@@ -84,9 +84,9 @@ export default {
         ]
     },
   ],
-  "/frontend/react/": [
-    { text: "React", link: "/frontend/react/index.md" },
-  ],
+  // "/frontend/react/": [
+  //   { text: "React", link: "/frontend/react/index.md" },
+  // ],
   "/topic/VitePress教程": [
     { text: "VitePress教程", link: "/topic/VitePress教程/index.md" },
     { text: "使用VitePress和GitHub Actions搭建个人博客", link: "/topic/VitePress教程/使用VitePress和GitHub Actions搭建个人博客.md" },
@@ -105,7 +105,7 @@ export default {
   "/topic/Vant问题": [
     { text: "vant中van-tabs有2个并且都设置sticky时如何生效.md", link: "/topic/Vant问题/vant中van-tabs有2个并且都设置sticky时如何生效.md" },
   ],
-  "/技术/git教程": [
-    { text: "git教程", link: "/技术/git教程/index.md" },
-  ],
+  // "/技术/git教程": [
+  //   { text: "git教程", link: "/技术/git教程/index.md" },
+  // ],
 }
