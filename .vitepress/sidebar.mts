@@ -2,7 +2,7 @@
  * @Author: laidz laidz@yelinked.com
  * @Date: 2024-07-09 17:17:45
  * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-07-29 18:24:21
+ * @LastEditTime: 2025-08-03 21:03:27
  * @Description: 
  */
 export default {
@@ -74,15 +74,15 @@ export default {
   ],
   "/frontend/vue/": [
     { text: "Vue", link: "/frontend/vue/index.md" },
-    { 
-      collapsed: false,
-      text: "coderwhy的vue3", 
-      items: [
-          { text: '邂逅Vue3开发', link: '/frontend/vue/coderwhy的vue3/邂逅Vue3开发.md' },
-          { text: 'Vue基础之模板语法', link: '/frontend/vue/coderwhy的vue3/Vue基础之模板语法.md' },
-          { text: 'Vue3的OptionsAPI', link: '/frontend/vue/coderwhy的vue3/Vue3的OptionsAPI.md' },
-        ]
-    },
+    // { 
+    //   collapsed: false,
+    //   text: "coderwhy的vue3", 
+    //   items: [
+    //       { text: '邂逅Vue3开发', link: '/frontend/vue/coderwhy的vue3/邂逅Vue3开发.md' },
+    //       { text: 'Vue基础之模板语法', link: '/frontend/vue/coderwhy的vue3/Vue基础之模板语法.md' },
+    //       { text: 'Vue3的OptionsAPI', link: '/frontend/vue/coderwhy的vue3/Vue3的OptionsAPI.md' },
+    //     ]
+    // },
   ],
   // "/frontend/react/": [
   //   { text: "React", link: "/frontend/react/index.md" },
