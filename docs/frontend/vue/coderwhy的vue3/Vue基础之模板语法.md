@@ -143,7 +143,7 @@ React使用的jsx，所以对应的代码都是编写的类似于js的一种语�
 用于更新元素的 textContent
 
 ```vue
-  <template id="my-app">
+  <template>
     <h2 v-text="message"></h2>
     <!-- 等价于 -->
     <h2>{{message}}</h2>
@@ -159,7 +159,7 @@ React使用的jsx，所以对应的代码都是编写的类似于js的一种语�
 如果我们希望这个内容被Vue可以解析出来，那么可以使用 v-html 来展示
 
 ```vue
-  <template id="my-app">
+  <template>
     <div>{{msg}}</div>
     <div v-html="msg"></div>
   </template>
@@ -188,7 +188,7 @@ v-pre用于跳过元素和它的子元素的编译过程，显示原始的Mustac
 跳过不需要编译的节点，加快编译的速度；
 
 ```vue
-  <template id="my-app">
+  <template>
     <h2 v-pre>{{message}}</h2>
   </template>
 ```
@@ -225,7 +225,7 @@ v-pre用于跳过元素和它的子元素的编译过程，显示原始的Mustac
   
   <div id="app"></div>
 
-  <template id="my-app">
+  <template>
     <h2 v-cloak>{{message}}</h2>
   </template>
 
@@ -291,7 +291,7 @@ v-bind有一个对应的**语法糖**，也就是简写方式。
 ```vue
   <!-- vue2 template模板中只能有一个根元素 -->
   <!-- vue3 是允许template中有多个根元素 -->
-  <template id="my-app">
+  <template>
     <!-- 1.v-bind的基本使用 -->
     <img v-bind:src="imgUrl" alt="">
     <a v-bind:href="link">百度一下</a>
@@ -343,7 +343,7 @@ v-bind有一个对应的**语法糖**，也就是简写方式。
   <body>
     <div id="app"></div>
 
-    <template id="my-app">
+    <template>
       <div :class="className">哈哈哈哈</div>
       <!-- 对象语法: {'active': boolean} -->
       <div :class="{'active': isActive}">呵呵呵呵</div>
@@ -405,7 +405,7 @@ v-bind有一个对应的**语法糖**，也就是简写方式。
 **数组语法：**我们可以把一个数组传给 :class，以应用一个 class 列表；
 
 ```vue
-  <template id="my-app">
+  <template>
     <div :class="['abc', title]">哈哈哈哈</div>
     <div :class="['abc', title, isActive ? 'active': '']">哈哈哈哈</div>
     <div :class="['abc', title, {active: isActive}]">哈哈哈哈</div>
@@ -441,7 +441,7 @@ CSS property 名可以用驼峰式 (camelCase) 或短横线分隔 (kebab-case，
 对象语法：
 
 ```vue
-  <template id="my-app">
+  <template>
     <!-- :style="{cssPropertyName: cssPropertyValue}" -->
     <div :style="{color: finalColor, 'font-size': '30px'}">哈哈哈哈</div>
     <div :style="{color: finalColor, fontSize: '30px'}">哈哈哈哈</div>
@@ -461,7 +461,7 @@ CSS property 名可以用驼峰式 (camelCase) 或短横线分隔 (kebab-case，
 style 的数组语法可以将多个样式对象应用到同一个元素上；
 
 ```vue
-  <template id="my-app">
+  <template>
     <div :style="[style1Obj, style2Obj]">哈哈哈</div>
     <img :src="" alt="">
     <a :href=""></a>
@@ -482,7 +482,7 @@ style 的数组语法可以将多个样式对象应用到同一个元素上；
 这种绑定的方式，我们称之为动态绑定属性；
 
 ```vue
-  <template id="my-app">
+  <template>
     <div :[name]="value">哈哈哈</div>
   </template>
 ```
@@ -500,7 +500,7 @@ style 的数组语法可以将多个样式对象应用到同一个元素上；
 案例：info对象会被拆解成div的各个属性
 
 ```vue
-  <template id="my-app">
+  <template>
     <div v-bind="info">哈哈哈哈</div>
     <!-- 可以，但不推荐，可读性不强 -->
     <div :="info">哈哈哈哈</div>
@@ -576,7 +576,7 @@ v-on:click可以写成@click，是它的语法糖写法：
 如果我们希望一个元素绑定多个事件，这个时候可以传入一个对象：
 
 ```vue
-  <template id="my-app">
+  <template>
     <!-- 完整写法: v-on:监听的事件="methods中方法" -->
     <button v-on:click="btn1Click">按钮1</button>
     <div class="area" v-on:mousemove="mouseMove">div</div>
@@ -603,7 +603,7 @@ v-on:click可以写成@click，是它的语法糖写法：
 情况二：如果需要同时传入某个参数，同时需要event时，可以通过$event传入事件。
 
 ```vue
-  <template id="my-app">
+  <template>
     <!-- 默认传入event对象, 可以在方法中获取 -->
     <button @click="btn1Click">按钮1</button>
     <!-- $event可以获取到事件发生时的事件对象 -->
@@ -647,7 +647,7 @@ v-on支持修饰符，修饰符相当于对事件进行了一些特殊的处理�
 .passive - { passive: true } 模式添加侦听器
 
 ```vue
-  <template id="my-app">
+  <template>
     <div @click="divClick">
       <button @click.stop="btnClick">按钮</button>
     </div>
@@ -684,7 +684,7 @@ v-if、v-else、v-else-if用于根据条件来渲染某一块的内容：
 这三个指令与JavaScript的条件语句if、else、else if类似；
 
 ```vue
-  <template id="my-app">
+  <template>
     <input type="text" v-model="score">
     <h2 v-if="score > 90">优秀</h2>
     <h2 v-else-if="score > 60">良好</h2>
@@ -721,7 +721,7 @@ template元素可以当做不可见的包裹元素，并且在v-if上使用，�
 有点类似于小程序中的block
 
 ```vue
-  <template id="my-app">
+  <template>
     <template v-if="isShowHa">
       <h2>哈哈哈哈</h2>
       <h2>哈哈哈哈</h2>
@@ -743,7 +743,7 @@ template元素可以当做不可见的包裹元素，并且在v-if上使用，�
 v-show和v-if的用法看起来是一致的，也是根据一个条件决定是否显示元素或者组件：
 
 ```vue
-  <template id="my-app">
+  <template>
     <h2 v-show="isShow">哈哈哈哈</h2>
   </template>
 ```

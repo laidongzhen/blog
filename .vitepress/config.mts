@@ -1,10 +1,3 @@
-/*
- * @Author: laidz laidz@yelinked.com
- * @Date: 2024-07-09 17:17:45
- * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-03-17 15:32:03
- * @Description: 
- */
 import { defineConfig } from "vitepress";
 // 顶部菜单
 import nav from './nav.mts'
@@ -22,6 +15,14 @@ export default defineConfig({
   lang: 'en-US',
   // title:站点的标题。
   title: "laidongzhen's blog",
+  // 添加 vue 配置项解决构建错误
+  // vue: {
+  //   template: {
+  //     compilerOptions: {
+  //       whitespace: 'preserve'  // 关键配置
+  //     }
+  //   }
+  // },
   // 允许自定义每个页面的标题后缀或整个标题
   titleTemplate: '',
   // 站点的描述
