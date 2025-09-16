@@ -21,3 +21,6 @@
 # 面试刷题
 
 - [web前端面试-面试官系列](https://vue3js.cn/interview/)
+- [前端面试派](https://www.mianshipai.com/)
+- [面试鸭](https://www.mianshiya.com/)
+

@@ -5,13 +5,13 @@ layout: home
 hero:
   name: "blog"
   text: "个人博客"
-  tagline: 用于记录个人博客
+  tagline: 用于记录笔记
   actions:
     - theme: brand
       text: 开始阅读
       link: /frontend/
     - theme: alt
-      text: 学习圈子
+      text: github
       link: https://github.com/laidongzhen
 
 features:

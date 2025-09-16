@@ -38,11 +38,11 @@
 
 **this到底是如何查找和绑定的呢？**
 
-在我的公众号有另外一篇文章，专门详细的讲解了this的绑定规则；
+在公众号有另外一篇文章，专门详细的讲解了this的绑定规则；
 
 [前端面试之彻底搞懂this指向](https://mp.weixin.qq.com/s/hYm0JgBI25grNG_2sCRlTA)
 
-认真学习之后你绝对对this的绑定一清二楚；
+认真学习之后绝对对this的绑定一清二楚；
 
 
 
@@ -203,9 +203,7 @@ v-pre用于跳过元素和它的子元素的编译过程，显示原始的Mustac
 
 这个指令保持在元素上直到关联组件实例结束编译。
 
-和 CSS 规则如 [v-cloak] { display: none } 一起用时，这个指令可以隐藏未编译的 Mustache 标签直到组件实
-
-例准备完毕。div 不会显示，直到编译结束。
+和 CSS 规则如 [v-cloak] { display: none } 一起用时，这个指令可以隐藏未编译的 Mustache 标签直到组件实例准备完毕。div 不会显示，直到编译结束。
 
 ```vue
 <!DOCTYPE html>
@@ -402,7 +400,7 @@ v-bind有一个对应的**语法糖**，也就是简写方式。
 
 ## 绑定class – 数组语法
 
-**数组语法：**我们可以把一个数组传给 :class，以应用一个 class 列表；
+数组语法：我们可以把一个数组传给 :class，以应用一个 class 列表；
 
 ```vue
   <template id="my-app">
