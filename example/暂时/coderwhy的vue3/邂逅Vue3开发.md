@@ -169,7 +169,7 @@ Hello Vue案例的实现：
 你好啊，Vue3，案例的实现：
 
 ```vue
-  <div id="app"></div>
+  <div id="app2"></div>
 
   <script src="../js/vue.js"></script>
   <script>

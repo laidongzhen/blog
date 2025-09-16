@@ -99,7 +99,7 @@
 缺点三：多次使用的时候,很多运算也需要多次执行,没有缓存;
 
 ```vue
-  <template id="my-app">
+  <template>
     <h2>{{firstName + " " + lastName}}</h2>
     <h2>{{score >= 60 ? '及格': '不及格'}}</h2>
     <h2>{{message.split(" ").reverse().join(" ")}}</h2>
@@ -117,7 +117,7 @@
 缺点二：多次使用方法的时候,没有缓存,也需要多次计算;
 
 ```vue
-  <template id="my-app">
+  <template>
     <h2>{{getFullName()}}</h2>
     <h2>{{getResult()}}</h2>
     <h2>{{getReverseMessage()}}</h2>
@@ -150,7 +150,7 @@
 并且计算属性是有缓存的;
 
 ```vue
-  <template id="my-app">
+  <template >
     <h2>{{fullName}}</h2>
     <h2>{{result}}</h2>
     <h2>{{reverseMessage}}</h2>
@@ -179,7 +179,7 @@
 接下来我们来看一下同一个计算多次使用,计算属性和methods的差异：
 
 ```vue
-  <template id="my-app">
+  <template id="my-app4">
     <button @click="changeFirstName">修改firstName</button>
 
     <h2>{{fullName}}</h2>
@@ -311,7 +311,7 @@
 
 
 ```vue
-  <template id="my-app">
+  <template id="my-app5">
     您的问题: <input type="text" v-model="question">
     <!-- <button @click="queryAnswer">查找答案</button> -->
   </template>
@@ -460,7 +460,7 @@ v-model指令可以在表单 input、textarea以及select元素上创建双向�
 下进行一些特殊处理;
 
 ```
-  <template id="my-app">
+  <template id="my-app6">
     <!-- 1.v-bind value的绑定 2.监听input事件, 更新message的值 -->
     <!-- <input type="text" :value="message" @input="inputChange"> -->
     <input type="text" v-model="message">

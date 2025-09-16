@@ -1,10 +1,3 @@
-/*
- * @Author: laidz laidz@yelinked.com
- * @Date: 2024-07-09 17:17:45
- * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-09-16 20:02:32
- * @Description: 
- */
 export default {
   // 笔记
   "/notes": [
