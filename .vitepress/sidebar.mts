@@ -73,7 +73,7 @@ export default {
       items: [
           { text: '邂逅Vue3开发', link: '/frontend/vue/coderwhy的vue3/邂逅Vue3开发.md' },
           { text: 'Vue基础之模板语法', link: '/frontend/vue/coderwhy的vue3/Vue基础之模板语法.md' },
-          // { text: 'Vue3的OptionsAPI', link: '/frontend/vue/coderwhy的vue3/Vue3的OptionsAPI.md' },
+          { text: 'Vue3的OptionsAPI', link: '/frontend/vue/coderwhy的vue3/Vue3的OptionsAPI.md' },
         ]
     },
   ],
