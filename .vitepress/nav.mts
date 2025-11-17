@@ -2,7 +2,7 @@
  * @Author: laidz laidz@yelinked.com
  * @Date: 2024-07-09 17:17:45
  * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-03-17 15:33:29
+ * @LastEditTime: 2025-11-17 22:05:39
  * @Description: 
  */
 export default [
@@ -30,10 +30,10 @@ export default [
         text: "框架",
         items: [
           { text: "Vue", link: "/frontend/vue/" },
-          // {
-          //   text: "React",
-          //   link: "/frontend/react/",
-          // },
+          {
+            text: "React",
+            link: "/frontend/react/",
+          },
         ],
       },
     ],

@@ -77,9 +77,16 @@ export default {
         ]
     },
   ],
-  // "/frontend/react/": [
-  //   { text: "React", link: "/frontend/react/index.md" },
-  // ],
+  "/frontend/react/": [
+    { text: "React", link: "/frontend/react/index.md" },
+    { 
+      collapsed: false,
+      text: "React教程", 
+      items: [
+          { text: 'React入门', link: '/frontend/react/React教程/React入门.md' },
+        ]
+    },
+  ],
   "/topic/VitePress教程": [
     { text: "VitePress教程", link: "/topic/VitePress教程/index.md" },
     { text: "使用VitePress和GitHub Actions搭建个人博客", link: "/topic/VitePress教程/使用VitePress和GitHub Actions搭建个人博客.md" },
