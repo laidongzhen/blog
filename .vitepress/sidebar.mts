@@ -30,6 +30,13 @@ export default {
             { text: "ElementUI表格多选时点击某一行选中勾选框", link: "/notes/项目问题/ElementUI表格多选时点击某一行选中勾选框.md" },
           ]
      },
+    { 
+        collapsed: false,
+        text: "杂", 
+        items: [
+            { text: '写博客文章注意点', link: '/notes/杂/写博客文章注意点.md' },
+          ]
+     },
     // { 
     //     collapsed: false,
     //     text: "模块A", 
@@ -84,6 +91,7 @@ export default {
       text: "React教程", 
       items: [
           { text: 'React入门', link: '/frontend/react/React教程/React入门.md' },
+          { text: '工具', link: '/frontend/react/React教程/工具.md' },
         ]
     },
   ],
