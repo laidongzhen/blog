@@ -92,6 +92,7 @@ export default {
       items: [
           { text: 'React入门', link: '/frontend/react/React教程/React入门.md' },
           { text: '工具', link: '/frontend/react/React教程/工具.md' },
+          { text: '原理', link: '/frontend/react/React教程/原理.md' },
         ]
     },
   ],
