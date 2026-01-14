@@ -4,6 +4,14 @@ export default {
     { text: "前端路线规划.md", link: "/notes/前端路线规划.md" },
     { 
         collapsed: false,
+        text: "项目经历", 
+        items: [
+            { text: 'QMS项目技术文档', link: '/notes/项目经历/QMS项目技术文档.md' },
+            { text: 'QMS项目简历经历', link: '/notes/项目经历/QMS项目简历经历.md' },
+          ]
+     },
+    { 
+        collapsed: false,
         text: "Vue", 
         items: [
             { text: 'Vue3基础语法', link: '/notes/Vue/Vue3基础语法.md' },
