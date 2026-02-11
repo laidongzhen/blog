@@ -7,7 +7,8 @@ export default {
         text: "项目经历", 
         items: [
             { text: 'QMS项目技术文档', link: '/notes/项目经历/QMS项目技术文档.md' },
-            { text: 'QMS项目简历经历', link: '/notes/项目经历/QMS项目简历经历.md' },
+            { text: 'QMS模块解读版', link: '/notes/项目经历/QMS模块解读版.md' },
+            { text: 'QMS模块面试版', link: '/notes/项目经历/QMS模块面试版.md' },
           ]
      },
     { 

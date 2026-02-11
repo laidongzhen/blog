@@ -8,6 +8,7 @@
 ## 学习资源
 - [前端开发博客](https://example.com)
 - [技术社区](https://example.com)
+- [jeecg文档](https://help.jeecg.com/ui/)
 
 ## 前端体系
 - [web前端知识](https://www.kancloud.cn/maryong/maryong/1724398)
