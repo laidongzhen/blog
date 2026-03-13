@@ -10,6 +10,8 @@ export default {
             { text: 'QMS模块解读版', link: '/notes/项目经历/QMS模块解读版.md' },
             { text: 'QMS模块面试版', link: '/notes/项目经历/QMS模块面试版.md' },
             { text: 'jeecg项目解析', link: '/notes/项目经历/jeecg项目解析.md' },
+            { text: '访客小程序总览', link: '/notes/项目经历/访客小程序总览.md' },
+            { text: '访客小程序详解', link: '/notes/项目经历/访客小程序详解.md' },
           ]
      },
     { 
