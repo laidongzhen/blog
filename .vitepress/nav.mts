@@ -1,13 +1,14 @@
 /*
  * @Author: laidz laidz@yelinked.com
  * @Date: 2024-07-09 17:17:45
- * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-11-17 22:05:39
+ * @LastEditors: laidongzhen 2685023408@qq.com
+ * @LastEditTime: 2026-04-01 18:00:54
  * @Description: 
  */
 export default [
   { text: "首页", link: "/" },
   { text: "笔记", link: "/notes/" },
+  { text: "考试", link: "/exam/" },
   {
     text: "前端",
     items: [

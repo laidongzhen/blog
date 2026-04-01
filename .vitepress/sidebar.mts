@@ -67,6 +67,17 @@ export default {
     //  },
   ],
 
+  // 考试
+  "/exam": [
+    { 
+      collapsed: false,
+      text: "信息系统项目管理师", 
+      items: [
+          { text: '第一章信息化发展', link: '/exam/信息系统项目管理师/第一章信息化发展.md' },
+        ]
+     },
+  ],
+
   // frontend
   "/frontend/html/": [
     { text: "HTML", link: "/frontend/html/index.md" },
