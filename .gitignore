@@ -179,3 +179,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/vue,node,windows
+### VitePress ###
+.vitepress/cache
+.vitepress/dist
+
