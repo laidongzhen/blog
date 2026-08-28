@@ -1,0 +1,13 @@
+.vp-doc img {
+  cursor: zoom-in;
+  max-width: 100%;
+  height: auto;
+}
+
+.viewer-container {
+  z-index: 30000 !important;
+}
+
+.viewer-backdrop {
+  background-color: rgba(0, 0, 0, 0.92);
+}

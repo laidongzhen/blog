@@ -9,23 +9,23 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /frontend/
+      link: /notes/
     - theme: alt
       text: github
       link: https://github.com/laidongzhen
 
 features:
   - icon: 📋
-    title: 前端
-    details: 包括 HTML、CSS、JavaScript、Vue、React 等前端相关知识
-    link: /frontend/
-    linkText: 开始学习
+    title: 笔记
+    details: 项目经历、前端体系、考试与专题等技术文档
+    link: /notes/
+    linkText: 开始阅读
     rel: external
   - icon: 💬
-    title: 专题
-    details: 一些专题知识
-    link: /topic/VitePress教程/
-    linkText: 开始学习
+    title: 友情链接
+    details: 常用网站与资源
+    link: /friends/
+    linkText: 前往
     rel: external
   # - icon: 💬
   #   title: 服务端
@@ -46,4 +46,3 @@ features:
   #   linkText: 开始学习
   #   rel: external
 ---
-
