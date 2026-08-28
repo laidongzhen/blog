@@ -9,6 +9,7 @@
         "docs:preview": "vitepress preview",
         "docs:check": "node scripts/check-docs.mjs --staged",
         "docs:check:all": "node scripts/check-docs.mjs",
+        "docs:commit": "node scripts/docs-commit.mjs",
         "prepare": "husky",
         "clean": "rmdir /S .vitepress\\cache"
     },
