@@ -22,7 +22,7 @@ pnpm run docs:check
 只查暂存的文档（和 pre-commit 钩子相同）。指定文件：
 
 ```bash
-node scripts/check-docs.mjs docs/handbook/规范/某篇.md
+node scripts/check-docs.mjs docs/handbook/项目/某篇.md
 ```
 
 查全部文档（历史文可能有存量问题，不必为旧文一次性改完）：
