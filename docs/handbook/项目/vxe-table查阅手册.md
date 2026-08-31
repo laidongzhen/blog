@@ -3,6 +3,8 @@
 > 扫描范围：`src/**/*.{vue,ts,tsx}`  
 > 依赖版本：`vxe-table@^4.5.13`（另有 `vxe-utils`、`xe-utils`，业务源码未直接引用）  
 > 结论先行：**全项目仅使用 `vxe-table`，未使用 `vxe-grid`；无 `proxyConfig` / `editConfig` / 内置 `pager` / `toolbar`。**
+>
+> 官方文档：https://vxetable.cn/#/start/useTable/install
 
 ---
 
