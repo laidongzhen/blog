@@ -1,0 +1,8 @@
+# 单包仓库。packages 是给 CI 的 pnpm 9 用的（缺了会报 packages field missing）。
+# allowBuilds 是给本地 pnpm 11 用的：未审批的依赖构建脚本会让 pnpm run 直接失败。
+packages:
+  - "."
+
+allowBuilds:
+  esbuild: true
+  vue-demi: true
