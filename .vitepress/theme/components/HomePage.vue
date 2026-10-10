@@ -2,7 +2,7 @@
 import { withBase } from "vitepress";
 import { data as recentPosts } from "../../posts.data";
 
-const posts = recentPosts;
+const posts = [...recentPosts];
 </script>
 
 <template>

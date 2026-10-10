@@ -22,7 +22,8 @@
         "husky": "^9.1.7",
         "vitepress": "^1.1.4",
         "vitepress-plugin-back-to-top": "^1.0.1",
-        "vitepress-plugin-nprogress": "^0.0.4"
+        "vitepress-plugin-nprogress": "^0.0.4",
+        "vue": "^3.5.41"
     },
     "config": {
         "commitizen": {

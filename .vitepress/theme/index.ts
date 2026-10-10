@@ -1,6 +1,6 @@
 import { nextTick, onMounted, watch } from "vue";
 import DefaultTheme from "vitepress/theme";
-import { useRoute } from "vitepress";
+import { useRoute, type EnhanceAppContext } from "vitepress";
 import Viewer from "viewerjs";
 import vitepressNprogress from "vitepress-plugin-nprogress";
 import vitepressBackToTop from "vitepress-plugin-back-to-top";
@@ -14,7 +14,7 @@ import NavBoard from "./components/NavBoard.vue";
 
 export default {
   ...DefaultTheme,
-  enhanceApp(ctx) {
+  enhanceApp(ctx: EnhanceAppContext) {
     ctx.app.component("HomePage", HomePage);
     ctx.app.component("NavBoard", NavBoard);
     vitepressNprogress(ctx);
