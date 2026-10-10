@@ -34,16 +34,6 @@ export const navGroups: NavGroupData[] = [
     title: "学习资源",
     items: [
       {
-        title: "前端开发博客",
-        desc: "前端文章与教程",
-        link: "https://example.com",
-      },
-      {
-        title: "技术社区",
-        desc: "技术问答与讨论",
-        link: "https://example.com",
-      },
-      {
         title: "Jeecg 文档",
         desc: "JeecgBoot 前端 UI 文档",
         link: "https://help.jeecg.com/ui/",
@@ -69,9 +59,19 @@ export const navGroups: NavGroupData[] = [
     title: "技术博客",
     items: [
       {
-        title: "BruceBlog",
-        desc: "前端学习与项目笔记",
-        link: "https://brucecqm.github.io/bruceblogpages/",
+        title: "茂茂物语",
+        desc: "VitePress 主题博客",
+        link: "https://fe-mm.com/",
+      },
+      {
+        title: "antfu.me",
+        desc: "Anthony Fu 的个人站点",
+        link: "https://antfu.me/",
+      },
+      {
+        title: "云游君",
+        desc: "云游君的个人博客",
+        link: "https://www.yunyoujun.cn/",
       },
       {
         title: "一尾流莺",
