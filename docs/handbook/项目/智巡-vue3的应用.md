@@ -1,4 +1,4 @@
-# Vue 3 在本项目中的应用详解（复习 / 面试用）
+# 智巡-vue3的应用（复习 / 面试用）
 
 > 基于 `substation-front-v3-plus` 代码库实际统计与常见写法整理。  
 > 结论先行：**本项目 Vue 3 应用最多、最核心的是 Composition API +** `script setup lang="ts"`**，其中响应式又以** `ref` **使用频率最高。**

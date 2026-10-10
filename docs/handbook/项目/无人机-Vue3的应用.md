@@ -1,5 +1,5 @@
 ---
-title: Vue 3 在本项目中的应用
+title: 无人机-Vue3的应用
 ---
 
 # Vue 3 在本项目中的应用
@@ -26,7 +26,7 @@ Vue 3 在这里**不是**展示站那套 Teleport 动画、Suspense 瀑布流。
 - 搜索条件变了要重新拉数
 - 父组件要开关子弹窗（`v-model`）
 - 页签切走再回来，表格还在不在（`KeepAlive`）
-- 按钮按权限显隐（`useAuth` + `computed`）
+- 按钮权限显隐（`useAuth` + `computed`）
 - 面试被问：你们项目 Vue 3 到底怎么用的
 
 ## 3. 一条链路看懂
@@ -206,6 +206,8 @@ export function useRoleManage() {
 
   const emit = defineEmits<Emits>()
 ```
+
+同一约定的简写版：
 
 ```131:132:src/components/core/forms/art-search-bar/index.vue
   const modelValue = defineModel<Record<string, any>>()
