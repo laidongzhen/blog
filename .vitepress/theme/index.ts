@@ -9,10 +9,14 @@ import "vitepress-plugin-nprogress/lib/css/index.css";
 import "vitepress-plugin-back-to-top/dist/style.css";
 import "viewerjs/dist/viewer.css";
 import "./custom.css";
+import HomePage from "./components/HomePage.vue";
+import NavBoard from "./components/NavBoard.vue";
 
 export default {
   ...DefaultTheme,
   enhanceApp(ctx) {
+    ctx.app.component("HomePage", HomePage);
+    ctx.app.component("NavBoard", NavBoard);
     vitepressNprogress(ctx);
     vitepressBackToTop({
       threshold: 300,
@@ -60,6 +64,7 @@ export default {
         container: "body",
         zIndex: 30000,
         filter(image: HTMLImageElement) {
+          if (image.dataset.viewer === "off") return false;
           return Boolean(image.src);
         },
       });
